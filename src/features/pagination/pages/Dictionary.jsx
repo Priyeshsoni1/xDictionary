@@ -24,7 +24,11 @@ const Dictionary = () => {
   return (
     <div>
       <h1>Dictionary App</h1>
-      <input placeholder="Search" onChange={(e) => setInput(e.target.value)} />
+      <input
+        type="text"
+        placeholder="Search"
+        onChange={(e) => setInput(e.target.value)}
+      />
       <button type="search" onClick={handleSearch}>
         Search
       </button>
